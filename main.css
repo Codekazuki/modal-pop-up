@@ -86,10 +86,10 @@ form button:hover {
   animation: slide ease 0.8s;
 }
 @keyframes slide {
-  from {
+  0% {
     transform: translateY(-30);
   }
-  to {
+  100% {
     transform: translateY(0);
   }
 }

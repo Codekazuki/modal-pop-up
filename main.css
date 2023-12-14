@@ -84,6 +84,11 @@ form button:hover {
   border: 1px solid greenyellow;
   text-align: center;
   animation: slide ease 0.8s;
+  height: 50vh;
+  border-radius: 8px;
+}
+.modal-content > * {
+  margin-bottom: 4rem;
 }
 @keyframes slide {
   0% {
@@ -92,4 +97,15 @@ form button:hover {
   100% {
     transform: translateY(0);
   }
+}
+.close {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-left: 95%;
+
+  cursor: pointer;
+}
+hr {
+  height: 3px;
+  background-color: var(--black);
 }
